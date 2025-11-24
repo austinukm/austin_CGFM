@@ -1,0 +1,23 @@
+2025-11-06 16:52:24,560 | INFO | Logging to: logs\train_multimodal_20251106_165224.log
+2025-11-06 16:52:24,561 | INFO | Using device: cuda
+2025-11-06 16:52:24,561 | INFO | Mode: multimodal | input_dim: 896 | epochs: 10 | lr: 0.001
+2025-11-06 16:54:08,640 | INFO | Epoch 01 | Mode: multimodal | Train Loss: 0.6104 | Val AUC: 0.7238 | Best AUC: 0.0000
+2025-11-06 16:54:08,646 | INFO | ✅ New best model saved (multimodal) with AUC=0.7238
+2025-11-06 16:55:51,404 | INFO | Epoch 02 | Mode: multimodal | Train Loss: 0.6003 | Val AUC: 0.7258 | Best AUC: 0.7238
+2025-11-06 16:55:51,408 | INFO | ✅ New best model saved (multimodal) with AUC=0.7258
+2025-11-06 16:57:33,995 | INFO | Epoch 03 | Mode: multimodal | Train Loss: 0.5981 | Val AUC: 0.7270 | Best AUC: 0.7258
+2025-11-06 16:57:34,001 | INFO | ✅ New best model saved (multimodal) with AUC=0.7270
+2025-11-06 16:59:17,298 | INFO | Epoch 04 | Mode: multimodal | Train Loss: 0.5969 | Val AUC: 0.7286 | Best AUC: 0.7270
+2025-11-06 16:59:17,303 | INFO | ✅ New best model saved (multimodal) with AUC=0.7286
+2025-11-06 17:00:58,728 | INFO | Epoch 05 | Mode: multimodal | Train Loss: 0.5962 | Val AUC: 0.7291 | Best AUC: 0.7286
+2025-11-06 17:00:58,731 | INFO | ✅ New best model saved (multimodal) with AUC=0.7291
+2025-11-06 17:02:38,239 | INFO | Epoch 06 | Mode: multimodal | Train Loss: 0.5957 | Val AUC: 0.7296 | Best AUC: 0.7291
+2025-11-06 17:02:38,243 | INFO | ✅ New best model saved (multimodal) with AUC=0.7296
+2025-11-06 17:04:20,520 | INFO | Epoch 07 | Mode: multimodal | Train Loss: 0.5953 | Val AUC: 0.7299 | Best AUC: 0.7296
+2025-11-06 17:04:20,528 | INFO | ✅ New best model saved (multimodal) with AUC=0.7299
+2025-11-06 17:06:01,717 | INFO | Epoch 08 | Mode: multimodal | Train Loss: 0.5950 | Val AUC: 0.7299 | Best AUC: 0.7299
+2025-11-06 17:06:01,722 | INFO | ✅ New best model saved (multimodal) with AUC=0.7299
+2025-11-06 17:07:38,623 | INFO | Epoch 09 | Mode: multimodal | Train Loss: 0.5947 | Val AUC: 0.7296 | Best AUC: 0.7299
+2025-11-06 17:09:19,390 | INFO | Epoch 10 | Mode: multimodal | Train Loss: 0.5944 | Val AUC: 0.7303 | Best AUC: 0.7299
+2025-11-06 17:09:19,394 | INFO | ✅ New best model saved (multimodal) with AUC=0.7303
+2025-11-06 17:09:19,394 | INFO | Training finished. Mode: multimodal | Best AUC=0.7303

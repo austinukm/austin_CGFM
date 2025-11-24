@@ -1,0 +1,66 @@
+2025-11-17 00:22:30,065 | INFO | Logging to: logs\transformer\train_20251117_002230.log
+2025-11-17 00:22:30,066 | INFO | Using device: cuda
+2025-11-17 00:22:30,066 | INFO | Model: MultimodalTransformerModel | text_dim: 384 | img_dim: 512 | hidden_dim: 256 | num_heads: 8 | num_layers: 2 | lambda_align: 0.05 | epochs: 40 | lr: 0.0005
+2025-11-17 00:26:19,095 | INFO | Epoch 01 | Train Loss: 0.6541 (BCE: 0.6532, Align: 0.0186) | Val AUC: 0.6949 | P@5: 0.6933 | R@5: 0.6028 | NDCG@5: 0.7808 | MAP: 0.7719 | Best AUC: 0.0000 | LR: 0.000500
+2025-11-17 00:26:19,108 | INFO | ✅ New best model saved (transformer) with AUC=0.6949
+2025-11-17 00:30:04,027 | INFO | Epoch 02 | Train Loss: 0.6200 (BCE: 0.6184, Align: 0.0311) | Val AUC: 0.6983 | P@5: 0.6965 | R@5: 0.6043 | NDCG@5: 0.7863 | MAP: 0.7764 | Best AUC: 0.6949 | LR: 0.000500
+2025-11-17 00:30:04,041 | INFO | ✅ New best model saved (transformer) with AUC=0.6983
+2025-11-17 00:33:54,138 | INFO | Epoch 03 | Train Loss: 0.6162 (BCE: 0.6148, Align: 0.0288) | Val AUC: 0.7044 | P@5: 0.6974 | R@5: 0.6055 | NDCG@5: 0.7863 | MAP: 0.7766 | Best AUC: 0.6983 | LR: 0.000500
+2025-11-17 00:33:54,148 | INFO | ✅ New best model saved (transformer) with AUC=0.7044
+2025-11-17 00:37:36,357 | INFO | Epoch 04 | Train Loss: 0.6144 (BCE: 0.6129, Align: 0.0288) | Val AUC: 0.7091 | P@5: 0.7008 | R@5: 0.6082 | NDCG@5: 0.7905 | MAP: 0.7795 | Best AUC: 0.7044 | LR: 0.000500
+2025-11-17 00:37:36,368 | INFO | ✅ New best model saved (transformer) with AUC=0.7091
+2025-11-17 00:41:30,812 | INFO | Epoch 05 | Train Loss: 0.6124 (BCE: 0.6110, Align: 0.0280) | Val AUC: 0.7115 | P@5: 0.7005 | R@5: 0.6070 | NDCG@5: 0.7904 | MAP: 0.7800 | Best AUC: 0.7091 | LR: 0.000500
+2025-11-17 00:41:30,824 | INFO | ✅ New best model saved (transformer) with AUC=0.7115
+2025-11-17 00:45:21,649 | INFO | Epoch 06 | Train Loss: 0.6103 (BCE: 0.6090, Align: 0.0268) | Val AUC: 0.7146 | P@5: 0.7019 | R@5: 0.6094 | NDCG@5: 0.7925 | MAP: 0.7815 | Best AUC: 0.7115 | LR: 0.000500
+2025-11-17 00:45:21,660 | INFO | ✅ New best model saved (transformer) with AUC=0.7146
+2025-11-17 00:49:11,359 | INFO | Epoch 07 | Train Loss: 0.6087 (BCE: 0.6074, Align: 0.0261) | Val AUC: 0.7168 | P@5: 0.7018 | R@5: 0.6073 | NDCG@5: 0.7927 | MAP: 0.7828 | Best AUC: 0.7146 | LR: 0.000500
+2025-11-17 00:49:11,369 | INFO | ✅ New best model saved (transformer) with AUC=0.7168
+2025-11-17 00:53:01,211 | INFO | Epoch 08 | Train Loss: 0.6077 (BCE: 0.6065, Align: 0.0252) | Val AUC: 0.7173 | P@5: 0.7026 | R@5: 0.6100 | NDCG@5: 0.7936 | MAP: 0.7836 | Best AUC: 0.7168 | LR: 0.000500
+2025-11-17 00:53:01,220 | INFO | ✅ New best model saved (transformer) with AUC=0.7173
+2025-11-17 00:56:51,346 | INFO | Epoch 09 | Train Loss: 0.6068 (BCE: 0.6056, Align: 0.0236) | Val AUC: 0.7195 | P@5: 0.7023 | R@5: 0.6099 | NDCG@5: 0.7928 | MAP: 0.7830 | Best AUC: 0.7173 | LR: 0.000500
+2025-11-17 00:56:51,354 | INFO | ✅ New best model saved (transformer) with AUC=0.7195
+2025-11-17 01:00:42,144 | INFO | Epoch 10 | Train Loss: 0.6063 (BCE: 0.6051, Align: 0.0233) | Val AUC: 0.7193 | P@5: 0.7026 | R@5: 0.6097 | NDCG@5: 0.7928 | MAP: 0.7831 | Best AUC: 0.7195 | LR: 0.000500
+2025-11-17 01:04:26,372 | INFO | Epoch 11 | Train Loss: 0.6058 (BCE: 0.6046, Align: 0.0226) | Val AUC: 0.7151 | P@5: 0.7005 | R@5: 0.6085 | NDCG@5: 0.7906 | MAP: 0.7813 | Best AUC: 0.7195 | LR: 0.000500
+2025-11-17 01:08:08,163 | INFO | Epoch 12 | Train Loss: 0.6054 (BCE: 0.6042, Align: 0.0227) | Val AUC: 0.7202 | P@5: 0.7025 | R@5: 0.6103 | NDCG@5: 0.7951 | MAP: 0.7855 | Best AUC: 0.7195 | LR: 0.000500
+2025-11-17 01:08:08,173 | INFO | ✅ New best model saved (transformer) with AUC=0.7202
+2025-11-17 01:11:55,079 | INFO | Epoch 13 | Train Loss: 0.6050 (BCE: 0.6039, Align: 0.0219) | Val AUC: 0.7195 | P@5: 0.7031 | R@5: 0.6093 | NDCG@5: 0.7933 | MAP: 0.7832 | Best AUC: 0.7202 | LR: 0.000500
+2025-11-17 01:15:43,329 | INFO | Epoch 14 | Train Loss: 0.6045 (BCE: 0.6034, Align: 0.0223) | Val AUC: 0.7197 | P@5: 0.7017 | R@5: 0.6090 | NDCG@5: 0.7934 | MAP: 0.7842 | Best AUC: 0.7202 | LR: 0.000500
+2025-11-17 01:19:27,857 | INFO | Epoch 15 | Train Loss: 0.6043 (BCE: 0.6032, Align: 0.0218) | Val AUC: 0.7214 | P@5: 0.7061 | R@5: 0.6117 | NDCG@5: 0.7968 | MAP: 0.7857 | Best AUC: 0.7202 | LR: 0.000500
+2025-11-17 01:19:27,868 | INFO | ✅ New best model saved (transformer) with AUC=0.7214
+2025-11-17 01:23:17,350 | INFO | Epoch 16 | Train Loss: 0.6042 (BCE: 0.6031, Align: 0.0212) | Val AUC: 0.7208 | P@5: 0.7040 | R@5: 0.6118 | NDCG@5: 0.7954 | MAP: 0.7853 | Best AUC: 0.7214 | LR: 0.000500
+2025-11-17 01:27:06,852 | INFO | Epoch 17 | Train Loss: 0.6040 (BCE: 0.6029, Align: 0.0218) | Val AUC: 0.7169 | P@5: 0.7014 | R@5: 0.6085 | NDCG@5: 0.7923 | MAP: 0.7827 | Best AUC: 0.7214 | LR: 0.000500
+2025-11-17 01:30:56,278 | INFO | Epoch 18 | Train Loss: 0.6037 (BCE: 0.6027, Align: 0.0211) | Val AUC: 0.7205 | P@5: 0.7022 | R@5: 0.6097 | NDCG@5: 0.7934 | MAP: 0.7841 | Best AUC: 0.7214 | LR: 0.000500
+2025-11-17 01:34:47,461 | INFO | Epoch 19 | Train Loss: 0.6037 (BCE: 0.6027, Align: 0.0215) | Val AUC: 0.7154 | P@5: 0.7022 | R@5: 0.6086 | NDCG@5: 0.7931 | MAP: 0.7832 | Best AUC: 0.7214 | LR: 0.000500
+2025-11-17 01:34:47,462 | INFO | 📉 Learning rate reduced from 0.000500 to 0.000250
+2025-11-17 01:38:33,444 | INFO | Epoch 20 | Train Loss: 0.6000 (BCE: 0.5993, Align: 0.0155) | Val AUC: 0.7229 | P@5: 0.7042 | R@5: 0.6108 | NDCG@5: 0.7957 | MAP: 0.7859 | Best AUC: 0.7214 | LR: 0.000250
+2025-11-17 01:38:33,455 | INFO | ✅ New best model saved (transformer) with AUC=0.7229
+2025-11-17 01:42:29,091 | INFO | Epoch 21 | Train Loss: 0.5996 (BCE: 0.5989, Align: 0.0148) | Val AUC: 0.7251 | P@5: 0.7062 | R@5: 0.6131 | NDCG@5: 0.7992 | MAP: 0.7886 | Best AUC: 0.7229 | LR: 0.000250
+2025-11-17 01:42:29,105 | INFO | ✅ New best model saved (transformer) with AUC=0.7251
+2025-11-17 01:46:18,973 | INFO | Epoch 22 | Train Loss: 0.5995 (BCE: 0.5988, Align: 0.0148) | Val AUC: 0.7232 | P@5: 0.7051 | R@5: 0.6123 | NDCG@5: 0.7977 | MAP: 0.7879 | Best AUC: 0.7251 | LR: 0.000250
+2025-11-17 01:50:05,321 | INFO | Epoch 23 | Train Loss: 0.5992 (BCE: 0.5985, Align: 0.0147) | Val AUC: 0.7224 | P@5: 0.7058 | R@5: 0.6116 | NDCG@5: 0.7981 | MAP: 0.7871 | Best AUC: 0.7251 | LR: 0.000250
+2025-11-17 01:53:51,666 | INFO | Epoch 24 | Train Loss: 0.5993 (BCE: 0.5986, Align: 0.0146) | Val AUC: 0.7230 | P@5: 0.7072 | R@5: 0.6132 | NDCG@5: 0.7987 | MAP: 0.7872 | Best AUC: 0.7251 | LR: 0.000250
+2025-11-17 01:57:43,450 | INFO | Epoch 25 | Train Loss: 0.5991 (BCE: 0.5983, Align: 0.0150) | Val AUC: 0.7241 | P@5: 0.7060 | R@5: 0.6124 | NDCG@5: 0.7983 | MAP: 0.7876 | Best AUC: 0.7251 | LR: 0.000250
+2025-11-17 01:57:43,450 | INFO | 📉 Learning rate reduced from 0.000250 to 0.000125
+2025-11-17 02:01:31,091 | INFO | Epoch 26 | Train Loss: 0.5973 (BCE: 0.5967, Align: 0.0122) | Val AUC: 0.7254 | P@5: 0.7064 | R@5: 0.6123 | NDCG@5: 0.8001 | MAP: 0.7898 | Best AUC: 0.7251 | LR: 0.000125
+2025-11-17 02:01:31,104 | INFO | ✅ New best model saved (transformer) with AUC=0.7254
+2025-11-17 02:05:25,773 | INFO | Epoch 27 | Train Loss: 0.5969 (BCE: 0.5964, Align: 0.0112) | Val AUC: 0.7260 | P@5: 0.7070 | R@5: 0.6130 | NDCG@5: 0.7999 | MAP: 0.7892 | Best AUC: 0.7254 | LR: 0.000125
+2025-11-17 02:05:25,783 | INFO | ✅ New best model saved (transformer) with AUC=0.7260
+2025-11-17 02:09:22,242 | INFO | Epoch 28 | Train Loss: 0.5968 (BCE: 0.5962, Align: 0.0110) | Val AUC: 0.7257 | P@5: 0.7066 | R@5: 0.6130 | NDCG@5: 0.7993 | MAP: 0.7887 | Best AUC: 0.7260 | LR: 0.000125
+2025-11-17 02:13:04,961 | INFO | Epoch 29 | Train Loss: 0.5968 (BCE: 0.5962, Align: 0.0112) | Val AUC: 0.7261 | P@5: 0.7079 | R@5: 0.6137 | NDCG@5: 0.8005 | MAP: 0.7892 | Best AUC: 0.7260 | LR: 0.000125
+2025-11-17 02:13:04,973 | INFO | ✅ New best model saved (transformer) with AUC=0.7261
+2025-11-17 02:16:57,131 | INFO | Epoch 30 | Train Loss: 0.5966 (BCE: 0.5961, Align: 0.0110) | Val AUC: 0.7260 | P@5: 0.7077 | R@5: 0.6129 | NDCG@5: 0.7998 | MAP: 0.7888 | Best AUC: 0.7261 | LR: 0.000125
+2025-11-17 02:20:42,550 | INFO | Epoch 31 | Train Loss: 0.5965 (BCE: 0.5960, Align: 0.0111) | Val AUC: 0.7263 | P@5: 0.7071 | R@5: 0.6131 | NDCG@5: 0.7990 | MAP: 0.7879 | Best AUC: 0.7261 | LR: 0.000125
+2025-11-17 02:20:42,559 | INFO | ✅ New best model saved (transformer) with AUC=0.7263
+2025-11-17 02:24:34,959 | INFO | Epoch 32 | Train Loss: 0.5964 (BCE: 0.5959, Align: 0.0109) | Val AUC: 0.7269 | P@5: 0.7077 | R@5: 0.6141 | NDCG@5: 0.7999 | MAP: 0.7884 | Best AUC: 0.7263 | LR: 0.000125
+2025-11-17 02:24:34,970 | INFO | ✅ New best model saved (transformer) with AUC=0.7269
+2025-11-17 02:28:24,959 | INFO | Epoch 33 | Train Loss: 0.5964 (BCE: 0.5958, Align: 0.0109) | Val AUC: 0.7268 | P@5: 0.7073 | R@5: 0.6135 | NDCG@5: 0.8007 | MAP: 0.7900 | Best AUC: 0.7269 | LR: 0.000125
+2025-11-17 02:32:10,574 | INFO | Epoch 34 | Train Loss: 0.5964 (BCE: 0.5958, Align: 0.0110) | Val AUC: 0.7265 | P@5: 0.7083 | R@5: 0.6134 | NDCG@5: 0.8006 | MAP: 0.7895 | Best AUC: 0.7269 | LR: 0.000125
+2025-11-17 02:36:04,758 | INFO | Epoch 35 | Train Loss: 0.5964 (BCE: 0.5959, Align: 0.0110) | Val AUC: 0.7265 | P@5: 0.7066 | R@5: 0.6123 | NDCG@5: 0.7999 | MAP: 0.7894 | Best AUC: 0.7269 | LR: 0.000125
+2025-11-17 02:39:52,411 | INFO | Epoch 36 | Train Loss: 0.5962 (BCE: 0.5957, Align: 0.0111) | Val AUC: 0.7274 | P@5: 0.7079 | R@5: 0.6138 | NDCG@5: 0.8008 | MAP: 0.7900 | Best AUC: 0.7269 | LR: 0.000125
+2025-11-17 02:39:52,424 | INFO | ✅ New best model saved (transformer) with AUC=0.7274
+2025-11-17 02:43:41,860 | INFO | Epoch 37 | Train Loss: 0.5962 (BCE: 0.5956, Align: 0.0111) | Val AUC: 0.7253 | P@5: 0.7067 | R@5: 0.6125 | NDCG@5: 0.7989 | MAP: 0.7880 | Best AUC: 0.7274 | LR: 0.000125
+2025-11-17 02:47:25,218 | INFO | Epoch 38 | Train Loss: 0.5961 (BCE: 0.5955, Align: 0.0110) | Val AUC: 0.7233 | P@5: 0.7052 | R@5: 0.6112 | NDCG@5: 0.7979 | MAP: 0.7877 | Best AUC: 0.7274 | LR: 0.000125
+2025-11-17 02:51:12,538 | INFO | Epoch 39 | Train Loss: 0.5962 (BCE: 0.5957, Align: 0.0108) | Val AUC: 0.7255 | P@5: 0.7058 | R@5: 0.6126 | NDCG@5: 0.7984 | MAP: 0.7881 | Best AUC: 0.7274 | LR: 0.000125
+2025-11-17 02:55:06,026 | INFO | Epoch 40 | Train Loss: 0.5961 (BCE: 0.5956, Align: 0.0112) | Val AUC: 0.7266 | P@5: 0.7067 | R@5: 0.6128 | NDCG@5: 0.7997 | MAP: 0.7893 | Best AUC: 0.7274 | LR: 0.000125
+2025-11-17 02:55:06,027 | INFO | 📉 Learning rate reduced from 0.000125 to 0.000063
+2025-11-17 02:55:06,027 | INFO | Training finished. Best AUC=0.7274

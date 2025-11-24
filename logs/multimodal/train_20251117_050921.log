@@ -1,0 +1,64 @@
+2025-11-17 05:09:21,957 | INFO | Logging to: logs\multimodal\train_20251117_050921.log
+2025-11-17 05:09:21,957 | INFO | Using device: cuda
+2025-11-17 05:09:21,958 | INFO | Mode: multimodal | input_dim: 896 | epochs: 50 | lr: 0.001
+2025-11-17 05:10:43,508 | INFO | Epoch 01 | Mode: multimodal | Train Loss: 0.6101 | Val AUC: 0.7226 | P@5: 0.7040 | R@5: 0.6105 | NDCG@5: 0.7959 | MAP: 0.7854 | Best AUC: 0.0000
+2025-11-17 05:10:43,515 | INFO | ✅ New best model saved (multimodal) with AUC=0.7226
+2025-11-17 05:12:04,570 | INFO | Epoch 02 | Mode: multimodal | Train Loss: 0.6005 | Val AUC: 0.7268 | P@5: 0.7081 | R@5: 0.6131 | NDCG@5: 0.8002 | MAP: 0.7888 | Best AUC: 0.7226
+2025-11-17 05:12:04,575 | INFO | ✅ New best model saved (multimodal) with AUC=0.7268
+2025-11-17 05:13:23,815 | INFO | Epoch 03 | Mode: multimodal | Train Loss: 0.5982 | Val AUC: 0.7281 | P@5: 0.7072 | R@5: 0.6128 | NDCG@5: 0.8005 | MAP: 0.7904 | Best AUC: 0.7268
+2025-11-17 05:13:23,820 | INFO | ✅ New best model saved (multimodal) with AUC=0.7281
+2025-11-17 05:14:46,524 | INFO | Epoch 04 | Mode: multimodal | Train Loss: 0.5969 | Val AUC: 0.7284 | P@5: 0.7080 | R@5: 0.6131 | NDCG@5: 0.7997 | MAP: 0.7888 | Best AUC: 0.7281
+2025-11-17 05:14:46,529 | INFO | ✅ New best model saved (multimodal) with AUC=0.7284
+2025-11-17 05:16:05,270 | INFO | Epoch 05 | Mode: multimodal | Train Loss: 0.5963 | Val AUC: 0.7294 | P@5: 0.7091 | R@5: 0.6137 | NDCG@5: 0.8016 | MAP: 0.7905 | Best AUC: 0.7284
+2025-11-17 05:16:05,275 | INFO | ✅ New best model saved (multimodal) with AUC=0.7294
+2025-11-17 05:17:24,416 | INFO | Epoch 06 | Mode: multimodal | Train Loss: 0.5957 | Val AUC: 0.7293 | P@5: 0.7093 | R@5: 0.6141 | NDCG@5: 0.8023 | MAP: 0.7909 | Best AUC: 0.7294
+2025-11-17 05:18:43,770 | INFO | Epoch 07 | Mode: multimodal | Train Loss: 0.5952 | Val AUC: 0.7293 | P@5: 0.7096 | R@5: 0.6139 | NDCG@5: 0.8021 | MAP: 0.7913 | Best AUC: 0.7294
+2025-11-17 05:20:04,945 | INFO | Epoch 08 | Mode: multimodal | Train Loss: 0.5949 | Val AUC: 0.7304 | P@5: 0.7103 | R@5: 0.6141 | NDCG@5: 0.8038 | MAP: 0.7915 | Best AUC: 0.7294
+2025-11-17 05:20:04,950 | INFO | ✅ New best model saved (multimodal) with AUC=0.7304
+2025-11-17 05:21:24,849 | INFO | Epoch 09 | Mode: multimodal | Train Loss: 0.5946 | Val AUC: 0.7296 | P@5: 0.7091 | R@5: 0.6141 | NDCG@5: 0.8017 | MAP: 0.7903 | Best AUC: 0.7304
+2025-11-17 05:22:43,417 | INFO | Epoch 10 | Mode: multimodal | Train Loss: 0.5944 | Val AUC: 0.7303 | P@5: 0.7100 | R@5: 0.6136 | NDCG@5: 0.8031 | MAP: 0.7916 | Best AUC: 0.7304
+2025-11-17 05:24:01,463 | INFO | Epoch 11 | Mode: multimodal | Train Loss: 0.5943 | Val AUC: 0.7302 | P@5: 0.7099 | R@5: 0.6133 | NDCG@5: 0.8032 | MAP: 0.7918 | Best AUC: 0.7304
+2025-11-17 05:25:21,685 | INFO | Epoch 12 | Mode: multimodal | Train Loss: 0.5940 | Val AUC: 0.7297 | P@5: 0.7096 | R@5: 0.6137 | NDCG@5: 0.8026 | MAP: 0.7913 | Best AUC: 0.7304
+2025-11-17 05:26:38,552 | INFO | Epoch 13 | Mode: multimodal | Train Loss: 0.5940 | Val AUC: 0.7301 | P@5: 0.7088 | R@5: 0.6135 | NDCG@5: 0.8019 | MAP: 0.7910 | Best AUC: 0.7304
+2025-11-17 05:27:56,654 | INFO | Epoch 14 | Mode: multimodal | Train Loss: 0.5937 | Val AUC: 0.7306 | P@5: 0.7089 | R@5: 0.6136 | NDCG@5: 0.8023 | MAP: 0.7916 | Best AUC: 0.7304
+2025-11-17 05:27:56,659 | INFO | ✅ New best model saved (multimodal) with AUC=0.7306
+2025-11-17 05:29:16,986 | INFO | Epoch 15 | Mode: multimodal | Train Loss: 0.5936 | Val AUC: 0.7305 | P@5: 0.7103 | R@5: 0.6155 | NDCG@5: 0.8041 | MAP: 0.7920 | Best AUC: 0.7306
+2025-11-17 05:30:37,834 | INFO | Epoch 16 | Mode: multimodal | Train Loss: 0.5937 | Val AUC: 0.7304 | P@5: 0.7081 | R@5: 0.6114 | NDCG@5: 0.8014 | MAP: 0.7912 | Best AUC: 0.7306
+2025-11-17 05:31:55,305 | INFO | Epoch 17 | Mode: multimodal | Train Loss: 0.5935 | Val AUC: 0.7299 | P@5: 0.7093 | R@5: 0.6133 | NDCG@5: 0.8026 | MAP: 0.7909 | Best AUC: 0.7306
+2025-11-17 05:33:14,585 | INFO | Epoch 18 | Mode: multimodal | Train Loss: 0.5935 | Val AUC: 0.7307 | P@5: 0.7099 | R@5: 0.6134 | NDCG@5: 0.8033 | MAP: 0.7915 | Best AUC: 0.7306
+2025-11-17 05:33:14,590 | INFO | ✅ New best model saved (multimodal) with AUC=0.7307
+2025-11-17 05:34:38,110 | INFO | Epoch 19 | Mode: multimodal | Train Loss: 0.5933 | Val AUC: 0.7304 | P@5: 0.7094 | R@5: 0.6138 | NDCG@5: 0.8027 | MAP: 0.7913 | Best AUC: 0.7307
+2025-11-17 05:36:00,559 | INFO | Epoch 20 | Mode: multimodal | Train Loss: 0.5933 | Val AUC: 0.7304 | P@5: 0.7098 | R@5: 0.6141 | NDCG@5: 0.8029 | MAP: 0.7917 | Best AUC: 0.7307
+2025-11-17 05:37:18,414 | INFO | Epoch 21 | Mode: multimodal | Train Loss: 0.5933 | Val AUC: 0.7304 | P@5: 0.7095 | R@5: 0.6138 | NDCG@5: 0.8024 | MAP: 0.7915 | Best AUC: 0.7307
+2025-11-17 05:38:35,877 | INFO | Epoch 22 | Mode: multimodal | Train Loss: 0.5934 | Val AUC: 0.7306 | P@5: 0.7106 | R@5: 0.6151 | NDCG@5: 0.8043 | MAP: 0.7924 | Best AUC: 0.7307
+2025-11-17 05:39:56,327 | INFO | Epoch 23 | Mode: multimodal | Train Loss: 0.5932 | Val AUC: 0.7301 | P@5: 0.7107 | R@5: 0.6148 | NDCG@5: 0.8028 | MAP: 0.7908 | Best AUC: 0.7307
+2025-11-17 05:41:15,412 | INFO | Epoch 24 | Mode: multimodal | Train Loss: 0.5932 | Val AUC: 0.7304 | P@5: 0.7097 | R@5: 0.6145 | NDCG@5: 0.8026 | MAP: 0.7907 | Best AUC: 0.7307
+2025-11-17 05:42:33,072 | INFO | Epoch 25 | Mode: multimodal | Train Loss: 0.5931 | Val AUC: 0.7300 | P@5: 0.7094 | R@5: 0.6125 | NDCG@5: 0.8033 | MAP: 0.7921 | Best AUC: 0.7307
+2025-11-17 05:43:52,266 | INFO | Epoch 26 | Mode: multimodal | Train Loss: 0.5931 | Val AUC: 0.7301 | P@5: 0.7091 | R@5: 0.6132 | NDCG@5: 0.8032 | MAP: 0.7917 | Best AUC: 0.7307
+2025-11-17 05:45:12,652 | INFO | Epoch 27 | Mode: multimodal | Train Loss: 0.5932 | Val AUC: 0.7303 | P@5: 0.7090 | R@5: 0.6131 | NDCG@5: 0.8018 | MAP: 0.7906 | Best AUC: 0.7307
+2025-11-17 05:46:33,106 | INFO | Epoch 28 | Mode: multimodal | Train Loss: 0.5930 | Val AUC: 0.7304 | P@5: 0.7089 | R@5: 0.6139 | NDCG@5: 0.8019 | MAP: 0.7907 | Best AUC: 0.7307
+2025-11-17 05:47:51,092 | INFO | Epoch 29 | Mode: multimodal | Train Loss: 0.5930 | Val AUC: 0.7306 | P@5: 0.7095 | R@5: 0.6138 | NDCG@5: 0.8028 | MAP: 0.7911 | Best AUC: 0.7307
+2025-11-17 05:49:08,610 | INFO | Epoch 30 | Mode: multimodal | Train Loss: 0.5928 | Val AUC: 0.7305 | P@5: 0.7088 | R@5: 0.6137 | NDCG@5: 0.8023 | MAP: 0.7913 | Best AUC: 0.7307
+2025-11-17 05:50:27,789 | INFO | Epoch 31 | Mode: multimodal | Train Loss: 0.5927 | Val AUC: 0.7306 | P@5: 0.7100 | R@5: 0.6140 | NDCG@5: 0.8032 | MAP: 0.7915 | Best AUC: 0.7307
+2025-11-17 05:51:44,927 | INFO | Epoch 32 | Mode: multimodal | Train Loss: 0.5928 | Val AUC: 0.7304 | P@5: 0.7090 | R@5: 0.6135 | NDCG@5: 0.8022 | MAP: 0.7910 | Best AUC: 0.7307
+2025-11-17 05:53:02,294 | INFO | Epoch 33 | Mode: multimodal | Train Loss: 0.5928 | Val AUC: 0.7303 | P@5: 0.7099 | R@5: 0.6134 | NDCG@5: 0.8027 | MAP: 0.7909 | Best AUC: 0.7307
+2025-11-17 05:54:23,905 | INFO | Epoch 34 | Mode: multimodal | Train Loss: 0.5927 | Val AUC: 0.7307 | P@5: 0.7104 | R@5: 0.6150 | NDCG@5: 0.8043 | MAP: 0.7925 | Best AUC: 0.7307
+2025-11-17 05:54:23,911 | INFO | ✅ New best model saved (multimodal) with AUC=0.7307
+2025-11-17 05:55:45,712 | INFO | Epoch 35 | Mode: multimodal | Train Loss: 0.5927 | Val AUC: 0.7306 | P@5: 0.7105 | R@5: 0.6145 | NDCG@5: 0.8034 | MAP: 0.7916 | Best AUC: 0.7307
+2025-11-17 05:57:04,105 | INFO | Epoch 36 | Mode: multimodal | Train Loss: 0.5927 | Val AUC: 0.7305 | P@5: 0.7089 | R@5: 0.6127 | NDCG@5: 0.8024 | MAP: 0.7915 | Best AUC: 0.7307
+2025-11-17 05:58:21,428 | INFO | Epoch 37 | Mode: multimodal | Train Loss: 0.5927 | Val AUC: 0.7307 | P@5: 0.7101 | R@5: 0.6149 | NDCG@5: 0.8037 | MAP: 0.7920 | Best AUC: 0.7307
+2025-11-17 05:58:21,434 | INFO | ✅ New best model saved (multimodal) with AUC=0.7307
+2025-11-17 05:59:44,977 | INFO | Epoch 38 | Mode: multimodal | Train Loss: 0.5927 | Val AUC: 0.7303 | P@5: 0.7094 | R@5: 0.6134 | NDCG@5: 0.8025 | MAP: 0.7910 | Best AUC: 0.7307
+2025-11-17 06:01:07,041 | INFO | Epoch 39 | Mode: multimodal | Train Loss: 0.5926 | Val AUC: 0.7305 | P@5: 0.7087 | R@5: 0.6129 | NDCG@5: 0.8018 | MAP: 0.7907 | Best AUC: 0.7307
+2025-11-17 06:02:23,195 | INFO | Epoch 40 | Mode: multimodal | Train Loss: 0.5927 | Val AUC: 0.7302 | P@5: 0.7098 | R@5: 0.6140 | NDCG@5: 0.8032 | MAP: 0.7912 | Best AUC: 0.7307
+2025-11-17 06:03:41,030 | INFO | Epoch 41 | Mode: multimodal | Train Loss: 0.5928 | Val AUC: 0.7304 | P@5: 0.7088 | R@5: 0.6128 | NDCG@5: 0.8017 | MAP: 0.7912 | Best AUC: 0.7307
+2025-11-17 06:05:01,939 | INFO | Epoch 42 | Mode: multimodal | Train Loss: 0.5927 | Val AUC: 0.7306 | P@5: 0.7097 | R@5: 0.6137 | NDCG@5: 0.8032 | MAP: 0.7916 | Best AUC: 0.7307
+2025-11-17 06:06:18,856 | INFO | Epoch 43 | Mode: multimodal | Train Loss: 0.5925 | Val AUC: 0.7306 | P@5: 0.7097 | R@5: 0.6132 | NDCG@5: 0.8019 | MAP: 0.7910 | Best AUC: 0.7307
+2025-11-17 06:07:37,785 | INFO | Epoch 44 | Mode: multimodal | Train Loss: 0.5927 | Val AUC: 0.7306 | P@5: 0.7092 | R@5: 0.6141 | NDCG@5: 0.8029 | MAP: 0.7917 | Best AUC: 0.7307
+2025-11-17 06:08:55,078 | INFO | Epoch 45 | Mode: multimodal | Train Loss: 0.5925 | Val AUC: 0.7306 | P@5: 0.7094 | R@5: 0.6135 | NDCG@5: 0.8027 | MAP: 0.7916 | Best AUC: 0.7307
+2025-11-17 06:10:16,103 | INFO | Epoch 46 | Mode: multimodal | Train Loss: 0.5926 | Val AUC: 0.7307 | P@5: 0.7090 | R@5: 0.6134 | NDCG@5: 0.8031 | MAP: 0.7921 | Best AUC: 0.7307
+2025-11-17 06:11:36,837 | INFO | Epoch 47 | Mode: multimodal | Train Loss: 0.5924 | Val AUC: 0.7305 | P@5: 0.7091 | R@5: 0.6131 | NDCG@5: 0.8024 | MAP: 0.7912 | Best AUC: 0.7307
+2025-11-17 06:12:55,115 | INFO | Epoch 48 | Mode: multimodal | Train Loss: 0.5924 | Val AUC: 0.7305 | P@5: 0.7103 | R@5: 0.6137 | NDCG@5: 0.8031 | MAP: 0.7914 | Best AUC: 0.7307
+2025-11-17 06:14:14,536 | INFO | Epoch 49 | Mode: multimodal | Train Loss: 0.5926 | Val AUC: 0.7307 | P@5: 0.7100 | R@5: 0.6138 | NDCG@5: 0.8031 | MAP: 0.7918 | Best AUC: 0.7307
+2025-11-17 06:15:34,674 | INFO | Epoch 50 | Mode: multimodal | Train Loss: 0.5925 | Val AUC: 0.7305 | P@5: 0.7089 | R@5: 0.6132 | NDCG@5: 0.8021 | MAP: 0.7909 | Best AUC: 0.7307
+2025-11-17 06:15:34,674 | INFO | Training finished. Mode: multimodal | Best AUC=0.7307

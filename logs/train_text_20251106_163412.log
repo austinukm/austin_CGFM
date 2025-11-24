@@ -1,0 +1,22 @@
+2025-11-06 16:34:12,307 | INFO | Logging to: logs\train_text_20251106_163412.log
+2025-11-06 16:34:12,307 | INFO | Using device: cuda
+2025-11-06 16:34:12,307 | INFO | Mode: text | input_dim: 384 | epochs: 10 | lr: 0.001
+2025-11-06 16:35:42,305 | INFO | Epoch 01 | Mode: text | Train Loss: 0.6112 | Val AUC: 0.7226 | Best AUC: 0.0000
+2025-11-06 16:35:42,318 | INFO | ✅ New best model saved (text) with AUC=0.7226
+2025-11-06 16:37:20,083 | INFO | Epoch 02 | Mode: text | Train Loss: 0.6011 | Val AUC: 0.7255 | Best AUC: 0.7226
+2025-11-06 16:37:20,087 | INFO | ✅ New best model saved (text) with AUC=0.7255
+2025-11-06 16:38:50,721 | INFO | Epoch 03 | Mode: text | Train Loss: 0.5987 | Val AUC: 0.7275 | Best AUC: 0.7255
+2025-11-06 16:38:50,727 | INFO | ✅ New best model saved (text) with AUC=0.7275
+2025-11-06 16:40:34,569 | INFO | Epoch 04 | Mode: text | Train Loss: 0.5974 | Val AUC: 0.7280 | Best AUC: 0.7275
+2025-11-06 16:40:34,574 | INFO | ✅ New best model saved (text) with AUC=0.7280
+2025-11-06 16:42:46,583 | INFO | Epoch 05 | Mode: text | Train Loss: 0.5964 | Val AUC: 0.7284 | Best AUC: 0.7280
+2025-11-06 16:42:46,588 | INFO | ✅ New best model saved (text) with AUC=0.7284
+2025-11-06 16:44:48,763 | INFO | Epoch 06 | Mode: text | Train Loss: 0.5959 | Val AUC: 0.7290 | Best AUC: 0.7284
+2025-11-06 16:44:48,766 | INFO | ✅ New best model saved (text) with AUC=0.7290
+2025-11-06 16:46:52,198 | INFO | Epoch 07 | Mode: text | Train Loss: 0.5955 | Val AUC: 0.7288 | Best AUC: 0.7290
+2025-11-06 16:48:56,424 | INFO | Epoch 08 | Mode: text | Train Loss: 0.5952 | Val AUC: 0.7294 | Best AUC: 0.7290
+2025-11-06 16:48:56,428 | INFO | ✅ New best model saved (text) with AUC=0.7294
+2025-11-06 16:50:35,630 | INFO | Epoch 09 | Mode: text | Train Loss: 0.5949 | Val AUC: 0.7292 | Best AUC: 0.7294
+2025-11-06 16:52:15,112 | INFO | Epoch 10 | Mode: text | Train Loss: 0.5946 | Val AUC: 0.7294 | Best AUC: 0.7294
+2025-11-06 16:52:15,116 | INFO | ✅ New best model saved (text) with AUC=0.7294
+2025-11-06 16:52:15,116 | INFO | Training finished. Mode: text | Best AUC=0.7294

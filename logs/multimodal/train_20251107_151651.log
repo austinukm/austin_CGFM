@@ -1,0 +1,34 @@
+2025-11-07 15:16:51,246 | INFO | Logging to: logs\multimodal\train_20251107_151651.log
+2025-11-07 15:16:51,246 | INFO | Using device: cuda
+2025-11-07 15:16:51,246 | INFO | Mode: multimodal | input_dim: 896 | epochs: 20 | lr: 0.001
+2025-11-07 15:18:06,594 | INFO | Epoch 01 | Mode: multimodal | Train Loss: 0.6101 | Val AUC: 0.7227 | P@5: 0.7049 | R@5: 0.6101 | NDCG@5: 0.7970 | MAP: 0.7863 | Best AUC: 0.0000
+2025-11-07 15:18:06,600 | INFO | ✅ New best model saved (multimodal) with AUC=0.7227
+2025-11-07 15:19:23,452 | INFO | Epoch 02 | Mode: multimodal | Train Loss: 0.6005 | Val AUC: 0.7268 | P@5: 0.7078 | R@5: 0.6136 | NDCG@5: 0.8002 | MAP: 0.7893 | Best AUC: 0.7227
+2025-11-07 15:19:23,457 | INFO | ✅ New best model saved (multimodal) with AUC=0.7268
+2025-11-07 15:20:38,281 | INFO | Epoch 03 | Mode: multimodal | Train Loss: 0.5982 | Val AUC: 0.7279 | P@5: 0.7067 | R@5: 0.6113 | NDCG@5: 0.7987 | MAP: 0.7881 | Best AUC: 0.7268
+2025-11-07 15:20:38,286 | INFO | ✅ New best model saved (multimodal) with AUC=0.7279
+2025-11-07 15:22:00,590 | INFO | Epoch 04 | Mode: multimodal | Train Loss: 0.5970 | Val AUC: 0.7281 | P@5: 0.7092 | R@5: 0.6140 | NDCG@5: 0.8006 | MAP: 0.7886 | Best AUC: 0.7279
+2025-11-07 15:22:00,595 | INFO | ✅ New best model saved (multimodal) with AUC=0.7281
+2025-11-07 15:23:24,638 | INFO | Epoch 05 | Mode: multimodal | Train Loss: 0.5963 | Val AUC: 0.7291 | P@5: 0.7085 | R@5: 0.6134 | NDCG@5: 0.8004 | MAP: 0.7894 | Best AUC: 0.7281
+2025-11-07 15:23:24,642 | INFO | ✅ New best model saved (multimodal) with AUC=0.7291
+2025-11-07 15:24:50,508 | INFO | Epoch 06 | Mode: multimodal | Train Loss: 0.5957 | Val AUC: 0.7296 | P@5: 0.7099 | R@5: 0.6151 | NDCG@5: 0.8032 | MAP: 0.7916 | Best AUC: 0.7291
+2025-11-07 15:24:50,512 | INFO | ✅ New best model saved (multimodal) with AUC=0.7296
+2025-11-07 15:26:10,471 | INFO | Epoch 07 | Mode: multimodal | Train Loss: 0.5951 | Val AUC: 0.7301 | P@5: 0.7087 | R@5: 0.6132 | NDCG@5: 0.8013 | MAP: 0.7901 | Best AUC: 0.7296
+2025-11-07 15:26:10,476 | INFO | ✅ New best model saved (multimodal) with AUC=0.7301
+2025-11-07 15:27:33,412 | INFO | Epoch 08 | Mode: multimodal | Train Loss: 0.5949 | Val AUC: 0.7297 | P@5: 0.7090 | R@5: 0.6136 | NDCG@5: 0.8018 | MAP: 0.7905 | Best AUC: 0.7301
+2025-11-07 15:28:53,265 | INFO | Epoch 09 | Mode: multimodal | Train Loss: 0.5945 | Val AUC: 0.7293 | P@5: 0.7111 | R@5: 0.6150 | NDCG@5: 0.8033 | MAP: 0.7909 | Best AUC: 0.7301
+2025-11-07 15:30:15,520 | INFO | Epoch 10 | Mode: multimodal | Train Loss: 0.5944 | Val AUC: 0.7292 | P@5: 0.7089 | R@5: 0.6133 | NDCG@5: 0.8013 | MAP: 0.7904 | Best AUC: 0.7301
+2025-11-07 15:31:36,034 | INFO | Epoch 11 | Mode: multimodal | Train Loss: 0.5941 | Val AUC: 0.7298 | P@5: 0.7103 | R@5: 0.6148 | NDCG@5: 0.8034 | MAP: 0.7912 | Best AUC: 0.7301
+2025-11-07 15:33:00,633 | INFO | Epoch 12 | Mode: multimodal | Train Loss: 0.5941 | Val AUC: 0.7299 | P@5: 0.7083 | R@5: 0.6127 | NDCG@5: 0.8025 | MAP: 0.7915 | Best AUC: 0.7301
+2025-11-07 15:34:33,779 | INFO | Epoch 13 | Mode: multimodal | Train Loss: 0.5939 | Val AUC: 0.7301 | P@5: 0.7098 | R@5: 0.6133 | NDCG@5: 0.8032 | MAP: 0.7915 | Best AUC: 0.7301
+2025-11-07 15:34:33,784 | INFO | ✅ New best model saved (multimodal) with AUC=0.7301
+2025-11-07 15:36:15,126 | INFO | Epoch 14 | Mode: multimodal | Train Loss: 0.5938 | Val AUC: 0.7299 | P@5: 0.7085 | R@5: 0.6134 | NDCG@5: 0.8016 | MAP: 0.7903 | Best AUC: 0.7301
+2025-11-07 15:37:55,118 | INFO | Epoch 15 | Mode: multimodal | Train Loss: 0.5937 | Val AUC: 0.7300 | P@5: 0.7096 | R@5: 0.6147 | NDCG@5: 0.8024 | MAP: 0.7910 | Best AUC: 0.7301
+2025-11-07 15:39:34,648 | INFO | Epoch 16 | Mode: multimodal | Train Loss: 0.5936 | Val AUC: 0.7295 | P@5: 0.7098 | R@5: 0.6132 | NDCG@5: 0.8017 | MAP: 0.7901 | Best AUC: 0.7301
+2025-11-07 15:41:13,630 | INFO | Epoch 17 | Mode: multimodal | Train Loss: 0.5936 | Val AUC: 0.7302 | P@5: 0.7076 | R@5: 0.6118 | NDCG@5: 0.8011 | MAP: 0.7907 | Best AUC: 0.7301
+2025-11-07 15:41:13,635 | INFO | ✅ New best model saved (multimodal) with AUC=0.7302
+2025-11-07 15:42:56,999 | INFO | Epoch 18 | Mode: multimodal | Train Loss: 0.5935 | Val AUC: 0.7303 | P@5: 0.7096 | R@5: 0.6136 | NDCG@5: 0.8023 | MAP: 0.7904 | Best AUC: 0.7302
+2025-11-07 15:42:57,004 | INFO | ✅ New best model saved (multimodal) with AUC=0.7303
+2025-11-07 15:44:53,381 | INFO | Epoch 19 | Mode: multimodal | Train Loss: 0.5935 | Val AUC: 0.7301 | P@5: 0.7090 | R@5: 0.6139 | NDCG@5: 0.8029 | MAP: 0.7914 | Best AUC: 0.7303
+2025-11-07 15:46:44,481 | INFO | Epoch 20 | Mode: multimodal | Train Loss: 0.5933 | Val AUC: 0.7302 | P@5: 0.7094 | R@5: 0.6135 | NDCG@5: 0.8022 | MAP: 0.7909 | Best AUC: 0.7303
+2025-11-07 15:46:44,481 | INFO | Training finished. Mode: multimodal | Best AUC=0.7303

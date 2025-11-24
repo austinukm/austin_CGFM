@@ -1,0 +1,22 @@
+2025-11-06 16:15:19,246 | INFO | Logging to: logs\train_image_20251106_161519.log
+2025-11-06 16:15:19,246 | INFO | Using device: cuda
+2025-11-06 16:15:19,247 | INFO | Mode: image | input_dim: 512 | epochs: 10 | lr: 0.001
+2025-11-06 16:16:28,891 | INFO | Epoch 01 | Mode: image | Train Loss: 0.6150 | Val AUC: 0.7190 | Best AUC: 0.0000
+2025-11-06 16:16:28,896 | INFO | ✅ New best model saved (image) with AUC=0.7190
+2025-11-06 16:17:37,393 | INFO | Epoch 02 | Mode: image | Train Loss: 0.6032 | Val AUC: 0.7237 | Best AUC: 0.7190
+2025-11-06 16:17:37,397 | INFO | ✅ New best model saved (image) with AUC=0.7237
+2025-11-06 16:18:46,548 | INFO | Epoch 03 | Mode: image | Train Loss: 0.6005 | Val AUC: 0.7252 | Best AUC: 0.7237
+2025-11-06 16:18:46,552 | INFO | ✅ New best model saved (image) with AUC=0.7252
+2025-11-06 16:20:01,586 | INFO | Epoch 04 | Mode: image | Train Loss: 0.5990 | Val AUC: 0.7267 | Best AUC: 0.7252
+2025-11-06 16:20:01,591 | INFO | ✅ New best model saved (image) with AUC=0.7267
+2025-11-06 16:21:12,832 | INFO | Epoch 05 | Mode: image | Train Loss: 0.5982 | Val AUC: 0.7268 | Best AUC: 0.7267
+2025-11-06 16:21:12,836 | INFO | ✅ New best model saved (image) with AUC=0.7268
+2025-11-06 16:22:21,548 | INFO | Epoch 06 | Mode: image | Train Loss: 0.5973 | Val AUC: 0.7269 | Best AUC: 0.7268
+2025-11-06 16:22:21,551 | INFO | ✅ New best model saved (image) with AUC=0.7269
+2025-11-06 16:23:30,375 | INFO | Epoch 07 | Mode: image | Train Loss: 0.5969 | Val AUC: 0.7280 | Best AUC: 0.7269
+2025-11-06 16:23:30,379 | INFO | ✅ New best model saved (image) with AUC=0.7280
+2025-11-06 16:24:39,677 | INFO | Epoch 08 | Mode: image | Train Loss: 0.5964 | Val AUC: 0.7288 | Best AUC: 0.7280
+2025-11-06 16:24:39,681 | INFO | ✅ New best model saved (image) with AUC=0.7288
+2025-11-06 16:25:56,051 | INFO | Epoch 09 | Mode: image | Train Loss: 0.5961 | Val AUC: 0.7280 | Best AUC: 0.7288
+2025-11-06 16:27:14,044 | INFO | Epoch 10 | Mode: image | Train Loss: 0.5959 | Val AUC: 0.7287 | Best AUC: 0.7288
+2025-11-06 16:27:14,044 | INFO | Training finished. Mode: image | Best AUC=0.7288

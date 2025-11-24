@@ -1,0 +1,52 @@
+2025-11-07 22:04:35,239 | INFO | Logging to: logs\projectiongate\train_20251107_220435.log
+2025-11-07 22:04:35,239 | INFO | Using device: cuda
+2025-11-07 22:04:35,239 | INFO | Model: MultimodalAddProjectionGateModel | text_dim: 384 | img_dim: 512 | proj_dim: 256 | lambda_align: 0.05 | epochs: 30 | lr: 0.0005
+2025-11-07 22:07:47,405 | INFO | Epoch 01 | Train Loss: 0.6293 (BCE: 0.6124, Align: 0.3382) | Val AUC: 0.7218 | P@5: 0.7053 | R@5: 0.6105 | NDCG@5: 0.7962 | MAP: 0.7853 | Best AUC: 0.0000 | LR: 0.000500
+2025-11-07 22:07:47,416 | INFO | ✅ New best model saved (projectiongate) with AUC=0.7218
+2025-11-07 22:11:01,310 | INFO | Epoch 02 | Train Loss: 0.6196 (BCE: 0.6031, Align: 0.3309) | Val AUC: 0.7243 | P@5: 0.7052 | R@5: 0.6115 | NDCG@5: 0.7974 | MAP: 0.7871 | Best AUC: 0.7218 | LR: 0.000500
+2025-11-07 22:11:01,318 | INFO | ✅ New best model saved (projectiongate) with AUC=0.7243
+2025-11-07 22:14:11,109 | INFO | Epoch 03 | Train Loss: 0.6178 (BCE: 0.6013, Align: 0.3294) | Val AUC: 0.7257 | P@5: 0.7062 | R@5: 0.6108 | NDCG@5: 0.7979 | MAP: 0.7870 | Best AUC: 0.7243 | LR: 0.000500
+2025-11-07 22:14:11,119 | INFO | ✅ New best model saved (projectiongate) with AUC=0.7257
+2025-11-07 22:17:22,905 | INFO | Epoch 04 | Train Loss: 0.6170 (BCE: 0.6006, Align: 0.3283) | Val AUC: 0.7257 | P@5: 0.7068 | R@5: 0.6126 | NDCG@5: 0.7997 | MAP: 0.7892 | Best AUC: 0.7257 | LR: 0.000500
+2025-11-07 22:20:31,611 | INFO | Epoch 05 | Train Loss: 0.6163 (BCE: 0.5999, Align: 0.3274) | Val AUC: 0.7268 | P@5: 0.7069 | R@5: 0.6128 | NDCG@5: 0.7985 | MAP: 0.7882 | Best AUC: 0.7257 | LR: 0.000500
+2025-11-07 22:20:31,620 | INFO | ✅ New best model saved (projectiongate) with AUC=0.7268
+2025-11-07 22:23:42,831 | INFO | Epoch 06 | Train Loss: 0.6157 (BCE: 0.5994, Align: 0.3268) | Val AUC: 0.7261 | P@5: 0.7082 | R@5: 0.6137 | NDCG@5: 0.8020 | MAP: 0.7904 | Best AUC: 0.7268 | LR: 0.000500
+2025-11-07 22:26:52,562 | INFO | Epoch 07 | Train Loss: 0.6156 (BCE: 0.5992, Align: 0.3264) | Val AUC: 0.7273 | P@5: 0.7098 | R@5: 0.6142 | NDCG@5: 0.8010 | MAP: 0.7888 | Best AUC: 0.7268 | LR: 0.000500
+2025-11-07 22:26:52,571 | INFO | ✅ New best model saved (projectiongate) with AUC=0.7273
+2025-11-07 22:30:07,817 | INFO | Epoch 08 | Train Loss: 0.6156 (BCE: 0.5993, Align: 0.3262) | Val AUC: 0.7278 | P@5: 0.7087 | R@5: 0.6146 | NDCG@5: 0.7999 | MAP: 0.7882 | Best AUC: 0.7273 | LR: 0.000500
+2025-11-07 22:30:07,825 | INFO | ✅ New best model saved (projectiongate) with AUC=0.7278
+2025-11-07 22:33:18,782 | INFO | Epoch 09 | Train Loss: 0.6151 (BCE: 0.5988, Align: 0.3255) | Val AUC: 0.7270 | P@5: 0.7089 | R@5: 0.6145 | NDCG@5: 0.8009 | MAP: 0.7892 | Best AUC: 0.7278 | LR: 0.000500
+2025-11-07 22:36:08,278 | INFO | Epoch 10 | Train Loss: 0.6149 (BCE: 0.5987, Align: 0.3249) | Val AUC: 0.7279 | P@5: 0.7076 | R@5: 0.6129 | NDCG@5: 0.8004 | MAP: 0.7895 | Best AUC: 0.7278 | LR: 0.000500
+2025-11-07 22:36:08,287 | INFO | ✅ New best model saved (projectiongate) with AUC=0.7279
+2025-11-07 22:39:17,471 | INFO | Epoch 11 | Train Loss: 0.6150 (BCE: 0.5987, Align: 0.3255) | Val AUC: 0.7281 | P@5: 0.7079 | R@5: 0.6142 | NDCG@5: 0.8005 | MAP: 0.7892 | Best AUC: 0.7279 | LR: 0.000500
+2025-11-07 22:39:17,480 | INFO | ✅ New best model saved (projectiongate) with AUC=0.7281
+2025-11-07 22:42:26,225 | INFO | Epoch 12 | Train Loss: 0.6146 (BCE: 0.5984, Align: 0.3253) | Val AUC: 0.7277 | P@5: 0.7094 | R@5: 0.6140 | NDCG@5: 0.8006 | MAP: 0.7891 | Best AUC: 0.7281 | LR: 0.000500
+2025-11-07 22:45:34,349 | INFO | Epoch 13 | Train Loss: 0.6146 (BCE: 0.5984, Align: 0.3249) | Val AUC: 0.7282 | P@5: 0.7061 | R@5: 0.6121 | NDCG@5: 0.7989 | MAP: 0.7892 | Best AUC: 0.7281 | LR: 0.000500
+2025-11-07 22:45:34,356 | INFO | ✅ New best model saved (projectiongate) with AUC=0.7282
+2025-11-07 22:48:42,916 | INFO | Epoch 14 | Train Loss: 0.6144 (BCE: 0.5982, Align: 0.3246) | Val AUC: 0.7286 | P@5: 0.7076 | R@5: 0.6130 | NDCG@5: 0.8012 | MAP: 0.7909 | Best AUC: 0.7282 | LR: 0.000500
+2025-11-07 22:48:42,925 | INFO | ✅ New best model saved (projectiongate) with AUC=0.7286
+2025-11-07 22:51:52,168 | INFO | Epoch 15 | Train Loss: 0.6143 (BCE: 0.5981, Align: 0.3248) | Val AUC: 0.7272 | P@5: 0.7090 | R@5: 0.6145 | NDCG@5: 0.8016 | MAP: 0.7905 | Best AUC: 0.7286 | LR: 0.000500
+2025-11-07 22:54:58,479 | INFO | Epoch 16 | Train Loss: 0.6144 (BCE: 0.5981, Align: 0.3251) | Val AUC: 0.7279 | P@5: 0.7075 | R@5: 0.6135 | NDCG@5: 0.8005 | MAP: 0.7894 | Best AUC: 0.7286 | LR: 0.000500
+2025-11-07 22:58:09,260 | INFO | Epoch 17 | Train Loss: 0.6142 (BCE: 0.5980, Align: 0.3246) | Val AUC: 0.7278 | P@5: 0.7083 | R@5: 0.6131 | NDCG@5: 0.8002 | MAP: 0.7891 | Best AUC: 0.7286 | LR: 0.000500
+2025-11-07 23:01:12,650 | INFO | Epoch 18 | Train Loss: 0.6143 (BCE: 0.5981, Align: 0.3248) | Val AUC: 0.7282 | P@5: 0.7077 | R@5: 0.6133 | NDCG@5: 0.8000 | MAP: 0.7888 | Best AUC: 0.7286 | LR: 0.000500
+2025-11-07 23:01:12,650 | INFO | 📉 Learning rate reduced from 0.000500 to 0.000250
+2025-11-07 23:04:19,136 | INFO | Epoch 19 | Train Loss: 0.6115 (BCE: 0.5955, Align: 0.3200) | Val AUC: 0.7299 | P@5: 0.7091 | R@5: 0.6131 | NDCG@5: 0.8024 | MAP: 0.7912 | Best AUC: 0.7286 | LR: 0.000250
+2025-11-07 23:04:19,145 | INFO | ✅ New best model saved (projectiongate) with AUC=0.7299
+2025-11-07 23:07:27,806 | INFO | Epoch 20 | Train Loss: 0.6113 (BCE: 0.5954, Align: 0.3192) | Val AUC: 0.7296 | P@5: 0.7093 | R@5: 0.6135 | NDCG@5: 0.8008 | MAP: 0.7897 | Best AUC: 0.7299 | LR: 0.000250
+2025-11-07 23:10:37,838 | INFO | Epoch 21 | Train Loss: 0.6112 (BCE: 0.5953, Align: 0.3193) | Val AUC: 0.7293 | P@5: 0.7094 | R@5: 0.6149 | NDCG@5: 0.8022 | MAP: 0.7908 | Best AUC: 0.7299 | LR: 0.000250
+2025-11-07 23:13:47,441 | INFO | Epoch 22 | Train Loss: 0.6111 (BCE: 0.5951, Align: 0.3194) | Val AUC: 0.7297 | P@5: 0.7091 | R@5: 0.6140 | NDCG@5: 0.8022 | MAP: 0.7908 | Best AUC: 0.7299 | LR: 0.000250
+2025-11-07 23:16:57,376 | INFO | Epoch 23 | Train Loss: 0.6111 (BCE: 0.5952, Align: 0.3192) | Val AUC: 0.7301 | P@5: 0.7094 | R@5: 0.6148 | NDCG@5: 0.8025 | MAP: 0.7911 | Best AUC: 0.7299 | LR: 0.000250
+2025-11-07 23:16:57,384 | INFO | ✅ New best model saved (projectiongate) with AUC=0.7301
+2025-11-07 23:19:46,709 | INFO | Epoch 24 | Train Loss: 0.6110 (BCE: 0.5951, Align: 0.3192) | Val AUC: 0.7301 | P@5: 0.7079 | R@5: 0.6131 | NDCG@5: 0.8017 | MAP: 0.7909 | Best AUC: 0.7301 | LR: 0.000250
+2025-11-07 23:19:46,717 | INFO | ✅ New best model saved (projectiongate) with AUC=0.7301
+2025-11-07 23:22:41,478 | INFO | Epoch 25 | Train Loss: 0.6112 (BCE: 0.5952, Align: 0.3192) | Val AUC: 0.7295 | P@5: 0.7081 | R@5: 0.6127 | NDCG@5: 0.8009 | MAP: 0.7899 | Best AUC: 0.7301 | LR: 0.000250
+2025-11-07 23:25:31,086 | INFO | Epoch 26 | Train Loss: 0.6111 (BCE: 0.5952, Align: 0.3195) | Val AUC: 0.7297 | P@5: 0.7098 | R@5: 0.6144 | NDCG@5: 0.8027 | MAP: 0.7911 | Best AUC: 0.7301 | LR: 0.000250
+2025-11-07 23:27:50,754 | INFO | Epoch 27 | Train Loss: 0.6111 (BCE: 0.5951, Align: 0.3193) | Val AUC: 0.7301 | P@5: 0.7084 | R@5: 0.6126 | NDCG@5: 0.8018 | MAP: 0.7915 | Best AUC: 0.7301 | LR: 0.000250
+2025-11-07 23:27:50,754 | INFO | 📉 Learning rate reduced from 0.000250 to 0.000125
+2025-11-07 23:27:50,762 | INFO | ✅ New best model saved (projectiongate) with AUC=0.7301
+2025-11-07 23:30:35,282 | INFO | Epoch 28 | Train Loss: 0.6094 (BCE: 0.5936, Align: 0.3169) | Val AUC: 0.7304 | P@5: 0.7091 | R@5: 0.6138 | NDCG@5: 0.8026 | MAP: 0.7914 | Best AUC: 0.7301 | LR: 0.000125
+2025-11-07 23:30:35,292 | INFO | ✅ New best model saved (projectiongate) with AUC=0.7304
+2025-11-07 23:34:26,943 | INFO | Epoch 29 | Train Loss: 0.6093 (BCE: 0.5935, Align: 0.3160) | Val AUC: 0.7306 | P@5: 0.7094 | R@5: 0.6139 | NDCG@5: 0.8021 | MAP: 0.7910 | Best AUC: 0.7304 | LR: 0.000125
+2025-11-07 23:34:26,956 | INFO | ✅ New best model saved (projectiongate) with AUC=0.7306
+2025-11-07 23:38:20,383 | INFO | Epoch 30 | Train Loss: 0.6092 (BCE: 0.5934, Align: 0.3160) | Val AUC: 0.7305 | P@5: 0.7096 | R@5: 0.6137 | NDCG@5: 0.8025 | MAP: 0.7913 | Best AUC: 0.7306 | LR: 0.000125
+2025-11-07 23:38:20,384 | INFO | Training finished. Best AUC=0.7306

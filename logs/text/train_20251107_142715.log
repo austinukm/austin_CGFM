@@ -1,0 +1,34 @@
+2025-11-07 14:27:15,199 | INFO | Logging to: logs\text\train_20251107_142715.log
+2025-11-07 14:27:15,200 | INFO | Using device: cuda
+2025-11-07 14:27:15,200 | INFO | Mode: text | input_dim: 384 | epochs: 20 | lr: 0.001
+2025-11-07 14:28:28,208 | INFO | Epoch 01 | Mode: text | Train Loss: 0.6114 | Val AUC: 0.7226 | P@5: 0.7036 | R@5: 0.6098 | NDCG@5: 0.7956 | MAP: 0.7860 | Best AUC: 0.0000
+2025-11-07 14:28:28,214 | INFO | ✅ New best model saved (text) with AUC=0.7226
+2025-11-07 14:29:39,959 | INFO | Epoch 02 | Mode: text | Train Loss: 0.6010 | Val AUC: 0.7257 | P@5: 0.7055 | R@5: 0.6116 | NDCG@5: 0.7973 | MAP: 0.7873 | Best AUC: 0.7226
+2025-11-07 14:29:39,963 | INFO | ✅ New best model saved (text) with AUC=0.7257
+2025-11-07 14:30:53,892 | INFO | Epoch 03 | Mode: text | Train Loss: 0.5986 | Val AUC: 0.7270 | P@5: 0.7064 | R@5: 0.6126 | NDCG@5: 0.7975 | MAP: 0.7867 | Best AUC: 0.7257
+2025-11-07 14:30:53,896 | INFO | ✅ New best model saved (text) with AUC=0.7270
+2025-11-07 14:32:18,039 | INFO | Epoch 04 | Mode: text | Train Loss: 0.5974 | Val AUC: 0.7280 | P@5: 0.7089 | R@5: 0.6144 | NDCG@5: 0.8006 | MAP: 0.7889 | Best AUC: 0.7270
+2025-11-07 14:32:18,042 | INFO | ✅ New best model saved (text) with AUC=0.7280
+2025-11-07 14:33:27,666 | INFO | Epoch 05 | Mode: text | Train Loss: 0.5964 | Val AUC: 0.7283 | P@5: 0.7085 | R@5: 0.6136 | NDCG@5: 0.8002 | MAP: 0.7889 | Best AUC: 0.7280
+2025-11-07 14:33:27,669 | INFO | ✅ New best model saved (text) with AUC=0.7283
+2025-11-07 14:34:40,653 | INFO | Epoch 06 | Mode: text | Train Loss: 0.5959 | Val AUC: 0.7291 | P@5: 0.7074 | R@5: 0.6129 | NDCG@5: 0.8017 | MAP: 0.7913 | Best AUC: 0.7283
+2025-11-07 14:34:40,658 | INFO | ✅ New best model saved (text) with AUC=0.7291
+2025-11-07 14:35:49,657 | INFO | Epoch 07 | Mode: text | Train Loss: 0.5954 | Val AUC: 0.7291 | P@5: 0.7087 | R@5: 0.6135 | NDCG@5: 0.8006 | MAP: 0.7893 | Best AUC: 0.7291
+2025-11-07 14:35:49,661 | INFO | ✅ New best model saved (text) with AUC=0.7291
+2025-11-07 14:37:07,786 | INFO | Epoch 08 | Mode: text | Train Loss: 0.5950 | Val AUC: 0.7290 | P@5: 0.7071 | R@5: 0.6132 | NDCG@5: 0.8006 | MAP: 0.7906 | Best AUC: 0.7291
+2025-11-07 14:38:23,685 | INFO | Epoch 09 | Mode: text | Train Loss: 0.5949 | Val AUC: 0.7297 | P@5: 0.7096 | R@5: 0.6142 | NDCG@5: 0.8021 | MAP: 0.7908 | Best AUC: 0.7291
+2025-11-07 14:38:23,689 | INFO | ✅ New best model saved (text) with AUC=0.7297
+2025-11-07 14:39:40,320 | INFO | Epoch 10 | Mode: text | Train Loss: 0.5947 | Val AUC: 0.7296 | P@5: 0.7075 | R@5: 0.6122 | NDCG@5: 0.8002 | MAP: 0.7899 | Best AUC: 0.7297
+2025-11-07 14:40:56,798 | INFO | Epoch 11 | Mode: text | Train Loss: 0.5944 | Val AUC: 0.7300 | P@5: 0.7087 | R@5: 0.6133 | NDCG@5: 0.8023 | MAP: 0.7917 | Best AUC: 0.7297
+2025-11-07 14:40:56,802 | INFO | ✅ New best model saved (text) with AUC=0.7300
+2025-11-07 14:42:15,112 | INFO | Epoch 12 | Mode: text | Train Loss: 0.5943 | Val AUC: 0.7299 | P@5: 0.7086 | R@5: 0.6132 | NDCG@5: 0.8017 | MAP: 0.7910 | Best AUC: 0.7300
+2025-11-07 14:43:35,508 | INFO | Epoch 13 | Mode: text | Train Loss: 0.5941 | Val AUC: 0.7298 | P@5: 0.7090 | R@5: 0.6139 | NDCG@5: 0.8025 | MAP: 0.7911 | Best AUC: 0.7300
+2025-11-07 14:44:55,426 | INFO | Epoch 14 | Mode: text | Train Loss: 0.5941 | Val AUC: 0.7297 | P@5: 0.7100 | R@5: 0.6141 | NDCG@5: 0.8024 | MAP: 0.7902 | Best AUC: 0.7300
+2025-11-07 14:46:13,860 | INFO | Epoch 15 | Mode: text | Train Loss: 0.5937 | Val AUC: 0.7303 | P@5: 0.7098 | R@5: 0.6138 | NDCG@5: 0.8036 | MAP: 0.7919 | Best AUC: 0.7300
+2025-11-07 14:46:13,864 | INFO | ✅ New best model saved (text) with AUC=0.7303
+2025-11-07 14:47:24,376 | INFO | Epoch 16 | Mode: text | Train Loss: 0.5938 | Val AUC: 0.7300 | P@5: 0.7093 | R@5: 0.6134 | NDCG@5: 0.8018 | MAP: 0.7907 | Best AUC: 0.7303
+2025-11-07 14:48:35,233 | INFO | Epoch 17 | Mode: text | Train Loss: 0.5937 | Val AUC: 0.7300 | P@5: 0.7090 | R@5: 0.6132 | NDCG@5: 0.8026 | MAP: 0.7911 | Best AUC: 0.7303
+2025-11-07 14:49:54,780 | INFO | Epoch 18 | Mode: text | Train Loss: 0.5935 | Val AUC: 0.7300 | P@5: 0.7081 | R@5: 0.6132 | NDCG@5: 0.8013 | MAP: 0.7907 | Best AUC: 0.7303
+2025-11-07 14:51:14,527 | INFO | Epoch 19 | Mode: text | Train Loss: 0.5934 | Val AUC: 0.7300 | P@5: 0.7096 | R@5: 0.6131 | NDCG@5: 0.8023 | MAP: 0.7909 | Best AUC: 0.7303
+2025-11-07 14:52:38,388 | INFO | Epoch 20 | Mode: text | Train Loss: 0.5934 | Val AUC: 0.7301 | P@5: 0.7100 | R@5: 0.6136 | NDCG@5: 0.8025 | MAP: 0.7907 | Best AUC: 0.7303
+2025-11-07 14:52:38,389 | INFO | Training finished. Mode: text | Best AUC=0.7303

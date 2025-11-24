@@ -1,0 +1,32 @@
+2025-11-07 12:08:13,198 | INFO | Logging to: logs\train_projection_20251107_120813.log
+2025-11-07 12:08:13,198 | INFO | Using device: cuda
+2025-11-07 12:08:13,198 | INFO | Model: MultimodalAddProjectionModel | text_dim: 384 | img_dim: 512 | proj_dim: 256 | lambda_align: 0.05 | epochs: 20 | lr: 0.0005
+2025-11-07 12:10:42,549 | INFO | Epoch 01 | Train Loss: 0.6688 (BCE: 0.6108, Align: 1.1607) | Val AUC: 0.7227 | Best AUC: 0.0000 | LR: 0.000500
+2025-11-07 12:10:42,562 | INFO | ✅ New best model saved (projection) with AUC=0.7227
+2025-11-07 12:13:14,852 | INFO | Epoch 02 | Train Loss: 0.6532 (BCE: 0.6022, Align: 1.0211) | Val AUC: 0.7246 | Best AUC: 0.7227 | LR: 0.000500
+2025-11-07 12:13:14,859 | INFO | ✅ New best model saved (projection) with AUC=0.7246
+2025-11-07 12:15:45,565 | INFO | Epoch 03 | Train Loss: 0.6497 (BCE: 0.6003, Align: 0.9873) | Val AUC: 0.7258 | Best AUC: 0.7246 | LR: 0.000500
+2025-11-07 12:15:45,570 | INFO | ✅ New best model saved (projection) with AUC=0.7258
+2025-11-07 12:18:12,042 | INFO | Epoch 04 | Train Loss: 0.6481 (BCE: 0.5995, Align: 0.9715) | Val AUC: 0.7277 | Best AUC: 0.7258 | LR: 0.000500
+2025-11-07 12:18:12,047 | INFO | ✅ New best model saved (projection) with AUC=0.7277
+2025-11-07 12:21:31,228 | INFO | Epoch 05 | Train Loss: 0.6470 (BCE: 0.5989, Align: 0.9629) | Val AUC: 0.7277 | Best AUC: 0.7277 | LR: 0.000500
+2025-11-07 12:21:31,232 | INFO | ✅ New best model saved (projection) with AUC=0.7277
+2025-11-07 12:24:32,807 | INFO | Epoch 06 | Train Loss: 0.6465 (BCE: 0.5986, Align: 0.9579) | Val AUC: 0.7278 | Best AUC: 0.7277 | LR: 0.000500
+2025-11-07 12:24:32,813 | INFO | ✅ New best model saved (projection) with AUC=0.7278
+2025-11-07 12:28:40,369 | INFO | Epoch 07 | Train Loss: 0.6460 (BCE: 0.5984, Align: 0.9521) | Val AUC: 0.7276 | Best AUC: 0.7278 | LR: 0.000500
+2025-11-07 12:32:48,047 | INFO | Epoch 08 | Train Loss: 0.6457 (BCE: 0.5979, Align: 0.9541) | Val AUC: 0.7279 | Best AUC: 0.7278 | LR: 0.000500
+2025-11-07 12:32:48,054 | INFO | ✅ New best model saved (projection) with AUC=0.7279
+2025-11-07 12:36:55,259 | INFO | Epoch 09 | Train Loss: 0.6454 (BCE: 0.5978, Align: 0.9521) | Val AUC: 0.7277 | Best AUC: 0.7279 | LR: 0.000500
+2025-11-07 12:40:48,569 | INFO | Epoch 10 | Train Loss: 0.6452 (BCE: 0.5977, Align: 0.9511) | Val AUC: 0.7284 | Best AUC: 0.7279 | LR: 0.000500
+2025-11-07 12:40:48,573 | INFO | ✅ New best model saved (projection) with AUC=0.7284
+2025-11-07 12:43:18,415 | INFO | Epoch 11 | Train Loss: 0.6449 (BCE: 0.5974, Align: 0.9511) | Val AUC: 0.7279 | Best AUC: 0.7284 | LR: 0.000500
+2025-11-07 12:46:06,415 | INFO | Epoch 12 | Train Loss: 0.6453 (BCE: 0.5976, Align: 0.9534) | Val AUC: 0.7288 | Best AUC: 0.7284 | LR: 0.000500
+2025-11-07 12:46:06,422 | INFO | ✅ New best model saved (projection) with AUC=0.7288
+2025-11-07 12:49:01,637 | INFO | Epoch 13 | Train Loss: 0.6453 (BCE: 0.5974, Align: 0.9584) | Val AUC: 0.7282 | Best AUC: 0.7288 | LR: 0.000500
+2025-11-07 12:51:52,226 | INFO | Epoch 14 | Train Loss: 0.6451 (BCE: 0.5974, Align: 0.9541) | Val AUC: 0.7284 | Best AUC: 0.7288 | LR: 0.000500
+2025-11-07 12:54:41,494 | INFO | Epoch 15 | Train Loss: 0.6450 (BCE: 0.5975, Align: 0.9512) | Val AUC: 0.7287 | Best AUC: 0.7288 | LR: 0.000500
+2025-11-07 12:57:25,534 | INFO | Epoch 16 | Train Loss: 0.6450 (BCE: 0.5974, Align: 0.9524) | Val AUC: 0.7283 | Best AUC: 0.7288 | LR: 0.000500
+2025-11-07 12:57:25,535 | INFO | 📉 Learning rate reduced from 0.000500 to 0.000250
+2025-11-07 13:00:04,243 | INFO | Epoch 17 | Train Loss: 0.6407 (BCE: 0.5952, Align: 0.9090) | Val AUC: 0.7299 | Best AUC: 0.7288 | LR: 0.000250
+2025-11-07 13:00:04,248 | INFO | ✅ New best model saved (projection) with AUC=0.7299
+2025-11-07 13:02:44,081 | INFO | Epoch 18 | Train Loss: 0.6401 (BCE: 0.5951, Align: 0.9014) | Val AUC: 0.7295 | Best AUC: 0.7299 | LR: 0.000250

@@ -1,0 +1,3 @@
+2025-11-16 22:41:23,832 | INFO | Logging to: logs\projection\train_20251116_224123.log
+2025-11-16 22:41:23,832 | INFO | Using device: cuda
+2025-11-16 22:41:23,833 | INFO | Model: MultimodalAddProjectionModel | text_dim: 384 | img_dim: 512 | proj_dim: 256 | lambda_align: 0.05 | epochs: 30 | lr: 0.0005
